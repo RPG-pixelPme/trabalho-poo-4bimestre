@@ -88,14 +88,23 @@ const list_remedi = [
     new Remédio("LoveBlock", "Para quem sofre com a dor do amor, nossa formula resolve essa dor!", "Acaba com a sofrência em 2 minutos.", "Morte")
 ]
 
-
-
-
+const diabetes_drugs =
+[
+    new Remédio("Metformina", "Um dos medicamentos mais usados no tratamento do Diabetes Tipo 2.", "Reduz a glicose do fígado e resistência insulinica", "Náuseas, diarreias, dor abdominal."),
+    new Remédio("Acarbose", "Inibe o complexo enzimático", "Retarda a absorção de carboidratos e reduz a glicemia pós-prandial.", "Dor abdominal, diarreias e flatulência"),
+    new Remédio("Pioglitazona", "Usada para o controle de hiperglicemia pós-prandial", "Aumentam a secreção de insulina (por um curto período de tempo).", "Ganho de peso, edemas e risco maior de fraturas ósseas"),
+    new Remédio("Clorpropamida", "Estimula a secreção pancreática de insulina por ligação", "Impede o fechamento dos canais, evitando hipóxia", "Ganho de peso, queda de pressão e sonolência"),
+    new Remédio("Repaglinida", "Usada para o controle de hiperglicemia pós-prandial", "Aumenta a secreção de insulina", "Ganho de peso, edemas e risco maior de fraturas ósseas")
+]
 
 Gerenciador_remedios.abrir_tabela();
 
 //Gerenciador_remedios.adicionar(list_remedi[0]);
 //Gerenciador_remedios.adicionar(list_remedi[1]);
+/*for (let i = 0; i < diabetes_drugs.length; i++)
+{
+    Gerenciador_remedios.adicionar(diabetes_drugs[i]);
+} */
 //Gerenciador_remedios.delete("Mangolitio");
 //Gerenciador_remedios.adicionar(list_remedi[2]);
 const novo_LoveBlock = new Remédio("...", "...", "...", "Dormir pelo resto da vida.");
